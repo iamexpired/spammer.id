@@ -36,7 +36,7 @@ function sophie($nohp, $jum, $wait){
     }
 }
 print " Spammer Messaging 
-Code by : iamexpired.
+Code by : iamexpired
 
 \n";
 
