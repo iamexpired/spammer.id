@@ -35,7 +35,7 @@ function sophie($nohp, $jum, $wait){
  flush();
     }
 }
-print " Spammer Messaging "
+print " Spammer Messaging 
 Codeby : iamexpired.
 
 \n";
