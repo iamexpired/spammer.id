@@ -46,9 +46,9 @@ echo "
 
 Spammer Messaging Tools.
 \n";
-        echo "Phone Number ? ( ex : 08xxxx )\nInput : ";
+        echo "Phone Number : ";
         $nomor = trim(fgets(STDIN));
-        echo "Amount ?\nInput : ";
+        echo "Looping : ";
         $jumlah = trim(fgets(STDIN));
         echo "result.\n";
         $execute = sophie($nomor, $jumlah, $jeda);
