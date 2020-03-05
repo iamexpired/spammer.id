@@ -50,17 +50,9 @@ Spammer Messaging Tools.
         $nomor = trim(fgets(STDIN));
         echo "Amount ?\nInput : ";
         $jumlah = trim(fgets(STDIN));
-        echo "Delay ? (ex:0)\nInput : ";
-        $jeda = trim(fgets(STDIN));
-        echo "Result.\n";
+        echo "result.\n";
         $execute = sophie($nomor, $jumlah, $jeda);
         print $execute;
-        echo "
- _____ _                 _
-|_   _| |__   __ _ _ __ | | _____
-  | | | '_ \ / _` | '_ \| |/ / __|
-  | | | | | | (_| | | | |   <\__ \
-  |_| |_| |_|\__,_|_| |_|_|\_\___/
-
+        echo "end
 \n";
 ?>
