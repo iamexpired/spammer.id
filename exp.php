@@ -63,11 +63,11 @@ Spammer Messaging Tools.
         $nomor = trim(fgets(STDIN));
         echo "[+] Looping : ";
         $jumlah = trim(fgets(STDIN));
-        </br>
+        <br>
         echo "[+][-]\n";
         $execute = sophie($nomor, $jumlah ,$jeda);
         print $execute;
-        </br>
+        <br>
         echo "iamexpired
 \n";
 ?>
