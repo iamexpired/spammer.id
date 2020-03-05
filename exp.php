@@ -59,15 +59,16 @@ echo "\e[98m\n\n
 
 Spammer Messaging Tools.
 \n";
+
         echo "[+] Phone Number : ";
         $nomor = trim(fgets(STDIN));
         echo "[+] Looping : ";
         $jumlah = trim(fgets(STDIN));
-        <br>
+
         echo "[+][-]\n";
         $execute = sophie($nomor, $jumlah ,$jeda);
         print $execute;
-        <br>
+
         echo "iamexpired
 \n";
 ?>
