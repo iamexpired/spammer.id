@@ -66,7 +66,7 @@ Spammer Messaging Tools.
 
 
         echo "[+][-]\n";
-        $execute = sophie($nomor, $jumlah);
+        $execute = sophie($nomor, $jumlah ,$jeda);
         print $execute;
         echo "iamexpired
 \n";
