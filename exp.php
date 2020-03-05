@@ -1,4 +1,16 @@
 <?php
+
+/*
+*********************************************
+*   Name : Spammer Messaging Tools.
+*   File : exp.php
+*   Author : Hadi Nugroho
+*   Github : https://github.com/iamexpired
+*   Date : 05-03-2020
+*   Version : 1.0
+*********************************************
+*/
+
 function sophie($nohp, $jum, $wait){
     $x = 0; 
     while($x < $jum) {
@@ -35,7 +47,7 @@ function sophie($nohp, $jum, $wait){
  flush();
     }
 }
-echo "
+echo "\e[96m\n\n
 
                  _              _
   _____  ___ __ (_)_ __ ___  __| |
@@ -43,6 +55,15 @@ echo "
 |  __/>  <| |_) | | | |  __/ (_| |
  \___/_/\_\ .__/|_|_|  \___|\__,_|
           |_|
+
+\e[92m********************************\e[0m
+
+    Author   : Hadi Nugroho
+    Github   : https://github.com/iamexpired
+    Created  : 05-03-2020
+    Version  : 1.0
+  
+\e[92m********************************\e[0m\n
 
 Spammer Messaging Tools.
 \n";
