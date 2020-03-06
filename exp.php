@@ -49,7 +49,7 @@ function sophie($nohp, $jum, $wait){
  flush();
     }
 }
-echo "\e[98m\n\n
+echo "
                  _              _
   _____  ___ __ (_)_ __ ___  __| |
  / _ \ \/ / '_ \| | '__/ _ \/ _` |
@@ -64,11 +64,11 @@ Spammer Messaging Tools.
         $nomor = trim(fgets(STDIN));
         echo "[+] Looping : ";
         $jumlah = trim(fgets(STDIN));
-
+        \n;
         echo "[+][-]\n";
         $execute = sophie($nomor, $jumlah ,$jeda);
         print $execute;
-
+        \n;
         echo "iamexpired
 \n";
 ?>
